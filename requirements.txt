@@ -1,0 +1,2 @@
+# Este proyecto no requiere paquetes externos de Python.
+# Se mantiene este archivo para estandarizar despliegues y automatizaciones.

@@ -11,10 +11,28 @@ Mock simple de turnos online para la `Clinica Veterinaria Firulais`.
 ## Ejecutar
 
 ```bash
-python3 app.py
+make init
+make run
 ```
 
 Luego abrir `http://127.0.0.1:8000`.
+
+## Ubuntu Server
+
+Prerequisitos minimos:
+
+- `python3`
+- `python3-venv`
+- `make`
+
+Instalacion tipica:
+
+```bash
+sudo apt update
+sudo apt install -y python3 python3-venv make
+make init
+make run
+```
 
 ## Alcance
 
