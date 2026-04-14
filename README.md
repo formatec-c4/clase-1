@@ -17,6 +17,14 @@ make run
 
 Luego abrir `http://127.0.0.1:8000`.
 
+Por defecto la app escucha en `0.0.0.0:8000`, asi que desde otra maquina en la misma red podes entrar con `http://IP_DE_LA_VM:8000`.
+
+Si necesitas cambiar host o puerto:
+
+```bash
+HOST=0.0.0.0 PORT=8080 make run
+```
+
 ## Ubuntu Server
 
 Prerequisitos minimos:
