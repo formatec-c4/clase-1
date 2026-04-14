@@ -29,10 +29,12 @@ Instalacion tipica:
 
 ```bash
 sudo apt update
-sudo apt install -y python3 python3-venv make
+sudo apt install -y python3 make
 make init
 make run
 ```
+
+`make init` intenta instalar automaticamente el paquete `pythonX.Y-venv` si falta en la VM. Ese paso requiere permisos de `sudo`.
 
 ## Alcance
 
