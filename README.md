@@ -1,12 +1,43 @@
-# Clase 1: Despliegue de Vet Firulais Turnos en una VM con VirtualBox
+# Clase 1: POC de Turnos Online con Virtualización en VirtualBox
 
-Mock simple de turnos online para la `Clinica Veterinaria Firulais`, pensado para practicar despliegue basico en una maquina virtual con Ubuntu Server.
+Mock simple de turnos online para la `Clinica Veterinaria Firulais`, pensado para practicar infraestructura local, virtualización y despliegue básico en una maquina virtual con Ubuntu Server.
 
 ## Esquema general
 
 La idea del laboratorio es levantar el servidor dentro de una VM y consumirlo desde otra maquina o desde el navegador del host usando la IP que recibe la VM en la red local.
 
 ![Esquema del laboratorio](./img/arquitectura-lab.png)
+
+## Contexto de la POC
+
+Esta POC forma parte del caso transversal de la `Clinica Veterinaria Firulais` visto en `clase1.pdf`.
+
+Escenario de negocio:
+
+- la clínica ya tiene infraestructura `on-premise`
+- hoy existe una necesidad nueva: publicar un portal de turnos online
+- el enfoque tradicional implicaría comprar otro servidor físico
+- esa compra suma costo, tiempo de instalación y más carga operativa
+
+Pregunta de la clase:
+
+- `¿podemos crear este nuevo servicio sin comprar otra máquina?`
+
+Respuesta que explora esta práctica:
+
+- sí, usando virtualización sobre un host existente
+- en este laboratorio, el hipervisor es `VirtualBox`
+- la VM nueva corre Ubuntu Server y dentro de ella se despliega la app de turnos
+
+## Qué se busca demostrar
+
+Con esta práctica no buscamos solo levantar una aplicación. También buscamos mostrar que:
+
+- un mismo host físico puede ejecutar varias máquinas virtuales
+- cada VM recibe CPU, memoria, disco y red asignados
+- el aprovisionamiento de un nuevo servicio es más rápido que comprar hardware nuevo
+- el hardware existente puede aprovecharse mejor
+- este modelo sirve como paso intermedio para entender después la evolución hacia cloud
 
 ## Objetivo de la clase
 
