@@ -244,22 +244,3 @@ Si ya tienes la VM funcionando y solo quieres levantar el proyecto:
 make init
 make run
 ```
-
-## Comprobacion rapida
-
-Antes de cerrar la practica, valida esto:
-
-- la VM arranca correctamente
-- Ubuntu Server quedo instalado
-- el adaptador de red esta en `Bridged Adapter`
-- `hostname -I` devuelve una IP de tu red local
-- `make init` termina sin errores
-- `make run` muestra el servidor en el puerto `8000`
-- puedes entrar desde el host a `http://IP_DE_LA_VM:8000`
-
-## Alcance del proyecto
-
-- agenda publica de turnos
-- solicitud de turno sin autenticacion
-- reservas en memoria
-- UI responsive con colores amigables
