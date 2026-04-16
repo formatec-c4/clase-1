@@ -173,11 +173,9 @@ En `Adapter 1`:
 
 - habilita el adaptador de red si no lo esta
 - en `Attached to` elige `Bridged Adapter`
-- en `Name` elige la interfaz fisica de tu host
+- en `Name`, deja la interfaz de red que VirtualBox seleccione por defecto
 
-Ejemplo:
-
-- en macOS con Wi-Fi puede aparecer como `en0: Wi-Fi`
+Normalmente esa opcion ya corresponde a la conexion activa de tu equipo.
 
 Deja marcado `Virtual Cable Connected` y confirma con `OK`.
 
@@ -245,12 +243,6 @@ Si ya tienes la VM funcionando y solo quieres levantar el proyecto:
 ```bash
 make init
 make run
-```
-
-Si necesitas cambiar host o puerto:
-
-```bash
-HOST=0.0.0.0 PORT=8080 make run
 ```
 
 ## Comprobacion rapida
