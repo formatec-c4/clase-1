@@ -39,6 +39,10 @@ Con esta práctica no buscamos solo levantar una aplicación. También buscamos 
 - el hardware existente puede aprovecharse mejor
 - este modelo sirve como paso intermedio para entender después la evolución hacia cloud
 
+## Apoyo para lectura
+
+Si la persona que sigue la guía no tiene experiencia previa en infraestructura o virtualización, puede apoyarse en el [glosario simple](./GLOSARIO.md) antes o durante la práctica.
+
 ## Objetivo de la clase
 
 Al terminar esta guia deberias poder:
