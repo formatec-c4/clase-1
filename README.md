@@ -194,29 +194,13 @@ cd clase-1
 make init
 ```
 
-`make init` crea el entorno virtual e instala lo necesario para correr la app.
+`make init` crea el entorno virtual y prepara lo necesario para correr la app.
 
 ![Clonado del repo y preparacion inicial](./img/clone-and-init.png)
 
-### Paso 13. Verificar prerequisitos en Ubuntu Server
-
-Si tu instalacion de Ubuntu es muy minima, asegurate de contar con:
-
-- `python3`
-- `python3-venv`
-- `make`
-- `git`
-
-Si falta alguno, instalalo con:
-
-```bash
-sudo apt update
-sudo apt install -y python3 python3-venv make git
-```
-
 ## Parte 5: Ejecutar la app y verla desde el host
 
-### Paso 14. Obtener la IP de la VM e iniciar el servidor
+### Paso 13. Obtener la IP de la VM e iniciar el servidor
 
 Dentro de la VM, primero consulta la IP con:
 
@@ -234,7 +218,7 @@ La aplicacion escucha por defecto en `0.0.0.0:8000`, por lo que queda expuesta e
 
 ![IP de la VM y servidor en ejecucion](./img/run-and-ip.png)
 
-### Paso 15. Abrir la app desde tu navegador
+### Paso 14. Abrir la app desde tu navegador
 
 Con la IP que devolvio `hostname -I`, abre en tu computadora host:
 
