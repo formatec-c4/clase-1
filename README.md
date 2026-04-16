@@ -2,6 +2,10 @@
 
 Mock simple de turnos online para la `Clinica Veterinaria Firulais`, pensado para practicar infraestructura local, virtualización y despliegue básico en una maquina virtual con Ubuntu Server.
 
+## Antes de empezar
+
+Si la persona que sigue la guía no tiene experiencia previa en infraestructura o virtualización, conviene leer primero el [glosario simple](./GLOSARIO.md). La idea es que pueda consultar esos términos antes de arrancar la POC y también durante la práctica.
+
 ## Esquema general
 
 La idea del laboratorio es levantar el servidor dentro de una VM y consumirlo desde otra maquina o desde el navegador del host usando la IP que recibe la VM en la red local.
@@ -38,10 +42,6 @@ Con esta práctica no buscamos solo levantar una aplicación. También buscamos 
 - el aprovisionamiento de un nuevo servicio es más rápido que comprar hardware nuevo
 - el hardware existente puede aprovecharse mejor
 - este modelo sirve como paso intermedio para entender después la evolución hacia cloud
-
-## Apoyo para lectura
-
-Si la persona que sigue la guía no tiene experiencia previa en infraestructura o virtualización, puede apoyarse en el [glosario simple](./GLOSARIO.md) antes o durante la práctica.
 
 ## Objetivo de la clase
 
